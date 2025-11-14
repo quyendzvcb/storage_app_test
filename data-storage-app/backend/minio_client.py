@@ -1,7 +1,7 @@
 
 from minio import Minio
 
-from storageapp import app
+from backend import app
 
 try:
     minio_client = Minio(

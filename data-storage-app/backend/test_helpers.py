@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from storageapp.minio_client import minio_client
+from backend.minio_client import minio_client
 
 
 def upload_file_to_minio(bucket_name, object_name, data_stream, data_length):
